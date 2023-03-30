@@ -1,0 +1,9 @@
+server:
+  port: 8080
+org:
+  j2os:
+    jms:
+      artemis:
+        username: amirsam
+        password: myjava123
+        broker: tcp://localhost:61616
