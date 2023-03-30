@@ -1,8 +1,10 @@
-package org.example.service;
+package org.j2os.jms.service;
 
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Service;
-
+/*
+    Bahador, Amirsam
+ */
 @Service
 public class BrokerService {
     @JmsListener(destination = "J2OS", containerFactory = "JMS_Container")

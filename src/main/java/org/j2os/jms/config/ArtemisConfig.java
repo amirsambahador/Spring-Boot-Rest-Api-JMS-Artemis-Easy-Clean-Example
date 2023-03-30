@@ -1,4 +1,4 @@
-package org.example.config;
+package org.j2os.jms.config;
 
 import org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -8,7 +8,9 @@ import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
 import org.springframework.jms.core.JmsTemplate;
 
 import javax.jms.JMSException;
-
+/*
+    Bahador, Amirsam
+ */
 @Configuration
 public class ArtemisConfig {
     @Value("${org.j2os.jms.artemis.username}")

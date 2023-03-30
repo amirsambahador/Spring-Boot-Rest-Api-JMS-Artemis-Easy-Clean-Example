@@ -1,9 +1,11 @@
-package org.example.api;
+package org.j2os.jms.api;
 
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+/*
+    Bahador, Amirsam
+ */
 @RestController
 public class BrokerAPI {
     private int j2osCounter = 0;
